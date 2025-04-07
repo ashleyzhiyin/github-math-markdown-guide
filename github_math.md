@@ -1,14 +1,8 @@
-# github-math-markdown-guide
-A concise guide to writing math expressions in GitHub-compatible Markdown using LaTeX syntax.
-While GitHub's native Markdown lacks full LaTeX support (as found in Jupyter Notebooks), there are still practical techniques to ensure correct rendering of math expressions.
----
-
-### ✅ `README.md` Content (Markdown)
-
-```markdown
 # GitHub-Compatible Math in Markdown
 
-This guide documents how to write math expressions using LaTeX-style syntax in Markdown files, with a focus on what is compatible with GitHub rendering.
+- This guide documents how to write math expressions using LaTeX-style syntax in Markdown files
+- with a focus on what is compatible with GitHub **rendering**.
+- While GitHub's native Markdown lacks full LaTeX support (as found in Jupyter Notebooks), there are still practical techniques to ensure correct rendering of math expressions.
 
 ## Inline Math
 
