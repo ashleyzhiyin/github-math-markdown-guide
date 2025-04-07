@@ -23,7 +23,7 @@ This is an inline formula: $E=mc^2$
 When writing block-level math expressions, the dollar signs ($$) should each be placed on their own line, with the equation between them. 
 This format is required for proper rendering in environments like Jupyter Notebook or MathJax-based renderers.
 
-### There is also a line break after the line break character '\\', don't write it right next to each other
+### There is also a line break after the line break character \*not italic\*, don't write it right next to each other
 
 Example:
 
