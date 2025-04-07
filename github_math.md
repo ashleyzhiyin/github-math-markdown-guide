@@ -19,21 +19,39 @@ This is an inline formula: $E=mc^2$
 
 ## Block Math
 
-GitHub-flavored Markdown does **not** natively support block-level math with `$$...$$`.  
-However, this can work in environments like:
-
-- Jupyter Notebooks
-- GitHub Pages (with MathJax)
-- Static site generators (e.g. MkDocs, Docusaurus with plugins)
+### Dollar Signs on Separate Lines (Block Math)
+When writing block-level math expressions, the dollar signs ($$) should each be placed on their own line, with the equation between them. 
+This format is required for proper rendering in environments like Jupyter Notebook or MathJax-based renderers.
 
 Example:
 
 ```markdown
 $$
-\sum_{i=1}^n x_i^2
+A = \begin{bmatrix}
+a_{11} & a_{12} & \dots & a_{1n} \\
+a_{21} & a_{22} & \dots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \dots & a_{mn}
+\end{bmatrix}
 $$
 ```
-If you're working within a regular .md file on GitHub, it's best to stick with inline math ($...$) for reliable rendering.
+
+### Spaces Between Dollar Signs and Text (Inline Math)
+leave spaces between the formula and surrounding text to avoid rendering issues.
+
+Correct usage:
+```markdown
+
+Given a matrix $A$ of dimensions $m \times n$, the SVD is given by:
+
+$$
+A = U \Sigma V^T
+$$
+
+```
+In this example:
+- $A$ is inline math, with no space inside the dollar signs.
+- The block-level formula for SVD is wrapped properly with $$ on separate lines.
 
 ## Multiline Equations
 
